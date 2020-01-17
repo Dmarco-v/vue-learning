@@ -84,10 +84,46 @@ computed中定义的属性为计算属性，当内部包含的对象（此处的
 
 相关配置：
 
+- Babel：js编译器，使项目可以兼容ES6以上的高级js语法。
 - npm/yarn 包管理工具
-- CSS Pre-processors ：CSS预编译
-- Router：路由
-- Vuex：
-- ESLint：可配置的Js语法规则和代码风格检查工具。
-- Unit Testing：单元测试。
+- CSS Pre-processors ：CSS预编译（Sass/SCSS选择node-sass实时编译）
+- Router：路由管理器
+- Vuex：状态管理
+- ESLint：可配置的Js语法规则和代码风格检查工具
+- Unit Testing：单元测试
+
+### 2.组件化
+
+组件化的目的：
+
+- 实现功能模块的复用
+- 提高执行效率
+- 开发单页面（仅局部刷新）复杂应用。
+
+### 3.Vue-router
+
+路由管理。
+
+- 在router\index.js中注册路由
+- 在用到跳转按钮的页面用<router-link>标签设置跳转的路由。
+
+### 4.Vuex
+
+Vuex是为Vue.js开发的状态管理模式。为了实现对组件状态的集中管理，使得组件状态的改变遵循统一的规则。
+
+
+
+
+
+
+
+
+
+**附**：
+
+[vue编码风格指南](https://cn.vuejs.org/v2/style-guide/index.html)
+
+
+
+
 
